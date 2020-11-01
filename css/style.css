@@ -75,7 +75,6 @@ nav ul {
 
 nav ul li {
   float: left;
-  margin-left: 30px;
 }
 
 nav ul li a {
@@ -112,7 +111,8 @@ nav ul li a {
   font-size: 18px;
 }
 
-.btn-learn {
+.btn-learn,
+.btn-download {
   border: none;
   text-transform: uppercase;
   background: #6fb048;
@@ -124,7 +124,8 @@ nav ul li a {
   transition: 0.5s;
 }
 
-.btn-learn:hover {
+.btn-learn:hover,
+.btn-download:hover {
   background-color: #193b05;
   border: 1px solid #193b05;
 }
@@ -143,12 +144,15 @@ nav ul li a {
   margin-bottom: 50px;
 }
 
-.best h3 {
+.best h3,
+.mapping-info h3 {
   color: #316e6b;
   font-size: 30px;
 }
 
-.best span {
+.best span,
+.plan span,
+.help span {
   border: 10px 5px;
   height: 2px;
   width: 50px;
@@ -157,7 +161,14 @@ nav ul li a {
   margin: 19px 0;
 }
 
-.best p {
+.best p,
+.responsive p,
+.client-info p,
+.mapping-info p,
+.plan-one p,
+.plan-two p,
+.plan-three p,
+.help p {
   color: #316e6b;
   font-size: 18px;
 }
@@ -189,4 +200,446 @@ nav ul li a {
   color: #316e6b;
   font-size: 17px;
   margin: 10px 0;
+}
+
+.ray {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.four-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0;
+}
+
+.item-one {
+  width: 50%;
+  overflow: hidden;
+}
+
+.item-one i {
+  float: left;
+  font-size: 25px;
+  margin-right: 20px;
+  color: #6fb048;
+}
+
+.item-one h5 {
+  margin-left: 30px;
+  font-size: 17px;
+  color: #0f5f5c;
+}
+
+.item-one p {
+  color: #a9c1bf;
+  margin-top: 20px;
+}
+
+.item-two {
+  width: 50%;
+  overflow: hidden;
+}
+
+.item-two i {
+  float: left;
+  font-size: 25px;
+  margin-right: 20px;
+  color: #6fb048;
+}
+
+.item-two h5 {
+  margin-left: 30px;
+  font-size: 17px;
+  color: #0f5f5c;
+}
+
+.item-two p {
+  color: #a9c1bf;
+  margin-top: 20px;
+}
+
+.template {
+  background-color: #eef1ec;
+  padding-top: 40px;
+}
+
+.responsive-hand {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hand {
+  width: 50%;
+}
+
+.hand img {
+  text-align: center;
+}
+
+.responsive {
+  width: 50%;
+}
+
+.responsive h1 {
+  color: #0f5f5c;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.responsive ul li i,
+.plan-one ul li i,
+.plan-two ul li i,
+.plan-three ul li i {
+  float: left;
+  color: #6fb048;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.responsive ul,
+.plan-one ul,
+.plan-two ul,
+.plan-three ul {
+  list-style: none;
+}
+
+.responsive ul li,
+.plan-one ul li,
+.plan-two ul li,
+.plan-three ul li {
+  margin-top: 20px;
+}
+
+.client {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0;
+}
+
+.client-detail {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.client-info {
+  width: 50%;
+}
+
+.client-info h5 {
+  margin-top: 30px;
+  color: #6fb048;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.client-info h6 {
+  color: #316e6b;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.client-image {
+  margin-left: 200px;
+  width: 50%;
+}
+
+.client-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.mapping {
+  background: #eef1ec;
+  padding: 60px 0;
+}
+
+.mapping-detail {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mapping-info {
+  width: 50%;
+}
+
+.mapping-image {
+  width: 50%;
+}
+
+.mapping-image img {
+  width: 90%;
+}
+
+.pricing {
+  margin: 60px 0;
+}
+
+.card {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-one,
+.card-two,
+.card-three {
+  width: 20%;
+  border: 1px solid #819f9e;
+}
+
+.card-one h4,
+.card-two h4,
+.card-three h4 {
+  margin-top: 20px;
+  color: #6fb048;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card-one h1,
+.card-two h1,
+.card-three h1 {
+  color: #0f5f5c;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.card-one h5,
+.card-two h5,
+.card-three h5 {
+  color: #819f9e;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-one ul,
+.card-two ul,
+.card-three ul {
+  list-style: none;
+}
+
+.card-one ul li,
+.card-two ul li,
+.card-three ul li {
+  text-align: center;
+  color: #8daeac;
+}
+
+.btn-card {
+  color: #f1f4f4;
+  margin: 20px 27px;
+  text-align: center;
+  border: none;
+  background: #83a7a5;
+  padding: 8px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn-card-second {
+  color: #f1f4f4;
+  margin: 20px 27px;
+  text-align: center;
+  border: none;
+  background: #6fb048;
+  padding: 8px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.plan,
+.help {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.plan h4 {
+  color: #316e6b;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.plan-detail {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan-one,
+.plan-two,
+.plan-three {
+  width: 26.66%;
+}
+
+.help i {
+  color: #6fb048;
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.help h4 {
+  color: #6fb048;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.help h5 {
+  color: #709492;
+  margin: 20px 0;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.download {
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.download::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #eaede8;
+  opacity: 0.8;
+}
+
+.download-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.download-info {
+  width: 60%;
+  padding: 50px 0;
+  z-index: 1;
+}
+
+.download-info h3 {
+  color: #316e6b;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.download-info p {
+  color: #316e6b;
+  font-size: 18px;
+}
+
+.download-button {
+  width: 40%;
+  z-index: 1;
+}
+
+.about {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0;
+}
+
+.about-detail {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan-one h3,
+.plan-two h3,
+.plan-three h3 {
+  color: #316e6b;
+}
+
+.plan-one h5 {
+  color: #316e6b;
+}
+
+.form {
+  margin-top: 10px;
+}
+
+.form input {
+  background: #eef1ec;
+  border: none;
+  padding: 10px 0;
+}
+
+.form input:focus {
+  border: none;
+}
+
+.icon {
+  position: relative;
+}
+
+.icon img {
+  position: absolute;
+  top: -27px;
+  left: 135px;
+}
+.form input::placeholder {
+  color: 83a7a5;
+  padding-left: 10px;
+}
+
+footer {
+  padding: 20px 0;
+  width: 80%;
+  margin: auto;
+  border-top: 1px solid #8daeac;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info {
+  width: 70%;
+}
+
+.footer-info p {
+  color: #316e6b;
+}
+
+.footer-icon {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-icon i {
+  color: #6f7f7e;
+  font-size: 30px;
 }
